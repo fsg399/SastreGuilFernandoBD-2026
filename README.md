@@ -34,10 +34,11 @@ api/
 ├── main.py              # Punto de entrada FastAPI
 ├── database.py          # Pool de conexiones MySQL
 └── routes/
-└──  base.py          # GET / y GET /health
+    ├── base.py          # GET / y GET /health
+    └── books.py         # Endpoints de gestión de libros y préstamos
 setup-environment/
-├── docker-compose.yml
-├── .env.example          # Ejemplo de variables de entorno
+├── docker-compose.yml   # Orquestación de contenedores (Python y MySQL)
+├── .env.example         # Ejemplo de variables de entorno
 ├── Dockerfile           # Imagen para la API
 ├── requirements.txt     # Dependencias de la API
 data/
