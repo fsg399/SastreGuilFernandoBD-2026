@@ -31,18 +31,18 @@ Dos servicios Docker:
 
 ## Estructura del proyecto
 api/
-├── main.py              # Punto de entrada FastAPI
-├── database.py          # Pool de conexiones MySQL
+├── main.py
+├── database.py
 └── routes/
-    ├── base.py          # GET / y GET /health
-    └── books.py         # Endpoints de gestión de libros y préstamos
+    ├── base.py
+    └── books.py
 setup-environment/
-├── docker-compose.yml   # Orquestación de contenedores (Python y MySQL)
-├── .env.example         # Ejemplo de variables de entorno
-├── Dockerfile           # Imagen para la API
-├── requirements.txt     # Dependencias de la API
+├── docker-compose.yml
+├── .env.example
+├── Dockerfile
+└── requirements.txt
 data/
-└── mysql-data/          # Volumen local MySQL (persistencia)
+└── mysql-data/
 ## Instalación y puesta en marcha
 
 1. Clona el repositorio:
