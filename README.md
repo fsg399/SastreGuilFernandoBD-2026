@@ -15,7 +15,7 @@ desplegada con **Docker** (Uvicorn en puerto 8000, MySQL en puerto 3306).
 ## Instalación y puesta en marcha
 
 1. Clona el repositorio:
-   git clone https://github.com/tuusuario/biblioteca-restapi.git
+   git clone [https://github.com/tuusuario/biblioteca-restapi.git](https://github.com/fsg399/SastreGuilFernandoBD-2026.git)
 
 2. Renombra el archivo de entorno:
    cp setup-environment/.env.example setup-environment/.env
