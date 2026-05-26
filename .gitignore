@@ -1,32 +1,12 @@
-# Composer
-/vendor/
-/composer.lock
+# Entornos virtuales y caché de Python
+__pycache__/
+*.pyc
+venv/
+env/
 
-# PHPStorm
-/.idea
-
-# VSCode
-/.vscode
-
-# Node
-/node_modules/
-/npm-debug.log
-/yarn-error.log
-
-# Logs
-*.log
-
-# Environment variables
+# Archivos de entorno (contraseñas)
 .env
 
-# Cache
-/cache/
-/tmp/
-
-# PHPUnit
-/phpunit.xml
-/phpunit.xml.dist
-
-# Slim Framework
-/public/cache/
-/public/logs/
+# Archivos de bases de datos locales si los hubiera
+*.db
+*.sqlite3
