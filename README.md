@@ -30,7 +30,8 @@ Dos servicios Docker:
 | `python` | 8000   | API FastAPI + Uvicorn |
 
 ## Estructura del proyecto
-```api/
+```
+api/
 ├── main.py
 ├── database.py
 └── routes/
@@ -42,7 +43,8 @@ setup-environment/
 ├── Dockerfile
 └── requirements.txt
 data/
-└── mysql-data/```
+└── mysql-data/
+```
 ## Instalación y puesta en marcha
 
 1. Clona el repositorio:
